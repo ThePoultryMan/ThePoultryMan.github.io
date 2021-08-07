@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Georama', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+#header {
+    background-color: rgb(77, 77, 77);
+}
+
+.centeredText {
+    text-align: center;
+}
