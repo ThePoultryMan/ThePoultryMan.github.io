@@ -13,3 +13,7 @@
 .centeredText {
     text-align: center;
 }
+
+#navLinks li{
+    display: inline;
+}
