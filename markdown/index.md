@@ -11,7 +11,7 @@ I don't have anything special planned for this website.
 
 ### StackEdit
 
-[StackEdit](https://stackedit.io) is an online Markdown editor. Most of this site was written in Markdown (Which you can find [here](https://github.com/ThePoultryMan/thepoultryman.github.io)) and the rest was written with the help of BootStrap.
+[StackEdit](https://stackedit.io) is an online Markdown editor. Most of this site was written in Markdown (Which you can find [here](https://github.com/ThePoultryMan/thepoultryman.github.io/tree/main/markdown)) and the rest was written with the help of BootStrap.
 
 ### \<zero-md\>
 
