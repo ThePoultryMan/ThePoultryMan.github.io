@@ -1,18 +1,21 @@
 import React from 'react'
-import { Nav, NavLink, NavMenu } from './NavbarElements'
+import { Nav, HomeShortcut, NavLink, NavMenu } from './NavbarElements'
 
 const Navbar = () => {
   return (
     <>
         <Nav>
-            <NavLink to='/'>
+            <HomeShortcut to='./'>
                 <h1>Carbon Toast</h1>
-            </NavLink>
+            </HomeShortcut>
             <NavMenu>
-                <NavLink to='./projects' activeStyle>
+                <NavLink to='./'>
+                    Home
+                </NavLink>
+                <NavLink to='./projects'>
                     Projects
                 </NavLink>
-                <NavLink to='./mods' activeStyle>
+                <NavLink to='./mods'>
                     Mods
                 </NavLink>
             </NavMenu>
