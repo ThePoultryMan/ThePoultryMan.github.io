@@ -1,3 +1,14 @@
 div.card-container {
-    border: 3px solid rgb(82, 82, 82);
+    border-radius: 8px;
+    border: 1px solid rgb(82, 82, 82);
+    background-color: whitesmoke;
+
+    height: auto;
+    width: auto;
+
+    margin: 3vh;
+}
+
+.card-content {
+    margin: 2vh;
 }

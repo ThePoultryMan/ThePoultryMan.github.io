@@ -3,9 +3,9 @@ import "./Card.css"
 const Card = (props) => {
     return (
         <>
-            <div className="card-container" style={{ width: `${props.width}` }}>
-                <h1>{props.title}</h1>
-                <p>{props.description}</p>
+            <div className="card-container" style={{ maxWidth: `${props.maxWidth}` }}>
+                <h1 className="card-content">{props.title}</h1>
+                <p className="card-content">{props.description}</p>
             </div>
         </>
     )

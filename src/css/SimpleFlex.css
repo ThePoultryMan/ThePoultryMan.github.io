@@ -1,0 +1,15 @@
+div.simple-flex-grid {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 620px) {
+    div.simple-flex-grid {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+.simple-flex-col {
+    flex: 1;
+}
