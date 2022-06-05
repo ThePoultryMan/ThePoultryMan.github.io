@@ -14,7 +14,7 @@ const Projects = () => {
                     They're all open source, and you can find their respective GitHub links in their cards.</p>
             </div>
             <div className="simple-flex-grid">
-                <Card maxWidth="20vw" title="Bucket Hat" description={BucketHatDescription} className="simple-flex-col" />
+                <Card title="Bucket Hat" description={BucketHatDescription} className="simple-flex-col" />
             </div>
         </div>
     )

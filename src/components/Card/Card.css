@@ -5,8 +5,15 @@ div.card-container {
 
     height: auto;
     width: auto;
+    max-width: 25vw;
 
     margin: 3vh;
+}
+
+@media (max-width: 620px) {
+    div.card-container {
+        max-width: 65vw;
+    }
 }
 
 .card-content {
