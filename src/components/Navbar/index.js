@@ -1,5 +1,6 @@
 import React from 'react'
 import { Nav, HomeShortcut, NavLink, NavMenu } from './NavbarElements'
+import Sidebar from '../Sidebar'
 
 const Navbar = () => {
   return (
@@ -20,6 +21,7 @@ const Navbar = () => {
                 </NavLink>
             </NavMenu>
         </Nav>
+        <Sidebar />
     </>
   )
 }
