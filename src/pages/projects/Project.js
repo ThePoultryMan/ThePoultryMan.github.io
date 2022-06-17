@@ -1,4 +1,5 @@
 import React from "react";
+import "./ProjectPage.css";
 
 class Project extends React.Component {
     render() {
