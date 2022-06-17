@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectPage from '../../components/ProjectPage';
-import { DescSection } from '../../components/ProjectPage/ProjectPageElements'
+import { DescSection, LinkContainer } from '../../components/ProjectPage/ProjectPageElements'
 
 class BucketHat extends ProjectPage {
     title = "Bucket Hat"
@@ -39,6 +39,13 @@ class BucketHat extends ProjectPage {
                     </ul>
                 </li>
             </ul>
+        </DescSection>
+        <DescSection>
+            <br />
+            <LinkContainer>
+                <p><b>Additional Information</b></p>
+                <ul><li><a href='https://github.com/ThePoultryMan/Bucket-Hat-Bot' target='_blank' rel='noopener noreferrer'>GitHub Repository</a></li></ul>
+            </LinkContainer>
         </DescSection>
     </>;
 }
