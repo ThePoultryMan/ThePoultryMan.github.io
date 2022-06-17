@@ -19,7 +19,6 @@ function App() {
                         <Route path="/mods" exact element={<Mods />}></Route>
                     </Routes>
                 </div>
-                
             </Router>
         </div>
     );

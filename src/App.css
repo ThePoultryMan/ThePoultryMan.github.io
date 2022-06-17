@@ -12,5 +12,6 @@
 }
 
 div.Content {
+    padding-top: 80px; /* Stop the navbar from covering the content */
     margin: 1% 3% 1% 3%;
 }
