@@ -10,15 +10,9 @@ const Navbar = () => {
                 <h1>Carbon Toast</h1>
             </HomeShortcut>
             <NavMenu>
-                <NavLink to='./'>
-                    Home
-                </NavLink>
-                <NavLink to='./projects'>
-                    Projects
-                </NavLink>
-                <NavLink to='./mods'>
-                    Mods
-                </NavLink>
+                <NavLink to='./'>Home</NavLink>
+                <NavLink to='./projects'>Projects</NavLink>
+                <NavLink to='./mods'>Mods</NavLink>
             </NavMenu>
         </Nav>
         <Sidebar />
