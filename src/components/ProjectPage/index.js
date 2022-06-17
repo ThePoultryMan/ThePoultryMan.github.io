@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectPage.css";
 
-class Project extends React.Component {
+class ProjectPage extends React.Component {
     render() {
         return (
             <div className="projectContainer">
@@ -13,4 +13,4 @@ class Project extends React.Component {
     }
 }
 
-export default Project;
+export default ProjectPage;

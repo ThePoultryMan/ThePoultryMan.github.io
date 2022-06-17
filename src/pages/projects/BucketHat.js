@@ -1,7 +1,7 @@
 import React from "react";
-import Project from "../../components/Project";
+import ProjectPage from "../../components/ProjectPage";
 
-class BucketHat extends Project {
+class BucketHat extends ProjectPage {
     title = "Bucket Hat"
     simpleDescription = "A relatively simple Discord bot written in java.";
     description = <>
