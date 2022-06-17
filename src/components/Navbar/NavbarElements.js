@@ -14,7 +14,7 @@ export const HomeShortcut = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding 0 1rem;
+    padding: 0 1rem;
     height: 100%;
 `
 
@@ -23,7 +23,7 @@ export const NavLink = styled(NLink)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding 0 1rem;
+    padding: 0 1rem;
     height: 50%;
     transition: color .2s ease-in-out;
 
