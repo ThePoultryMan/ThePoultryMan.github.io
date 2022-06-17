@@ -1,3 +1,8 @@
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 div.card-container {
     border-radius: 8px;
     border: 1px solid rgb(82, 82, 82);
