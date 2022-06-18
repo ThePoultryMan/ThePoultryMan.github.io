@@ -22,17 +22,17 @@ export const HomeShortcut = styled(Link)`
 `
 
 export const NavLink = styled(NLink)`
+    transition: color .2s ease-in-out;
     color: #fff;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 50%;
-    transition: color .2s ease-in-out;
 
     &:hover {
-        color: rgb(6, 49, 104);
         transition: color .2s ease-in-out;
+        color: rgb(6, 49, 104);
     }
 `
 

@@ -16,11 +16,11 @@ export const LinkContainer = styled.div`
     a {
         transition: color .2s ease-in-out;
         text-decoration: inherit;
-        color: inherit;
+        color: #306ac7;
 
         &:hover {
             transition: color .2s ease-in-out;
-            color: #2670ad;
+            color: #114599;
         }
     }
 `
