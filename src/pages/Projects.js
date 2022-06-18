@@ -3,7 +3,7 @@ import Card from "../components/Card"
 import "../css/CarbonToast.css"
 import "../css/SimpleFlex.css"
 
-const BucketHatDescription = "A relatively simple Discord bot written in java."
+const bucketHatDescription = "A relatively simple Discord bot written in java."
 
 const Projects = () => {
     return (
@@ -14,7 +14,7 @@ const Projects = () => {
                     They're all open source, and you can find their respective GitHub links in their cards.</p>
             </div>
             <div className="simple-flex-grid">
-                <Card title="Bucket Hat" description={BucketHatDescription} to='./buckethat' className="simple-flex-col" />
+                <Card title="Bucket Hat" description={bucketHatDescription} to='./buckethat' className="simple-flex-col" />
             </div>
         </div>
     )
