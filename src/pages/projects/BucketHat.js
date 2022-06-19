@@ -3,8 +3,8 @@ import ProjectPage from '../../components/ProjectPage';
 import { DescSection, LinkContainer } from '../../components/ProjectPage/ProjectPageElements'
 
 class BucketHat extends ProjectPage {
-    title = "Bucket Hat"
-    simpleDescription = "A relatively simple Discord bot written in java.";
+    title = 'Bucket Hat';
+    simpleDescription = 'A relatively simple Discord bot written in java.';
     description = <>
         <br />
         <DescSection>
