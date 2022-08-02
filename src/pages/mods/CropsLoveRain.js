@@ -5,20 +5,27 @@ import { DescSection, LinkContainer } from '../../components/ProjectPage/Project
 class CropsLoveRainPage extends ProjectPage {
     title = 'Crops Love Rain';
     simpleDescription = "Makes crops grow faster when it's raining.";
-    description = <>
-        <br />
-        <DescSection>
-            <h2>About</h2>
-            <p>Crops Love Rain makes crops and saplings grow faster while it's raining.</p>
-        </DescSection>
-        <DescSection>
-            <h2>Configuration</h2>
-            <h3>Gamerule</h3>
-            <p>The speed that crops grow at can be changed with the <code>cropGrowthSpeedDuringRain</code> gamerule. The
-            default value is 10. A lower value is faster, and a higher value is a slower growth rate.</p>
-            <h3>Disabling</h3>
-            <p>You can disable the effect by setting the <code>cropGrowthSpeedDuringRain</code> gamerule to 0.</p>
-        </DescSection>
+    description = `## About
+Crops Love Rain makes crops and saplings grow faster while it's raining.
+
+## Configuration
+### Gamerule
+The speed that crops grow at can be changed with the \`cropGrowthSpeedDuringRain\` gamerule. The default value is 10. A
+lower value is faster and a higher value is a slower growth rate.
+
+### Disabling
+You can disable the effect by setting the \`cropGrowthSpeedDuringRain\` gamerule to 0.
+
+**Download Links**
+- [Modrinth](https://modrinth.com/mod/crops-love-rain)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/crops-love-rain)
+- [GitHub Releases](https://github.com/ThePoultryMan/Crops-Love-Rain/releases)
+
+**Related Links**
+- [GitHub Repository](https://github.com/ThePoultryMan/Crops-Love-Rain)
+- [Issue Reporting](https://github.com/ThePoultryMan/Crops-Love-Rain/issues)
+    `;
+    test = <>
         <DescSection>
             <br />
             <LinkContainer>
