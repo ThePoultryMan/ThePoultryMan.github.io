@@ -9,7 +9,7 @@ class ProjectPage extends React.Component {
                 <h1>{this.title}</h1>
                 <p><i>{this.simpleDescription}</i></p>
                 <br />
-                <ReactMarkdown>{this.description}</ReactMarkdown>
+                <ReactMarkdown children={this.description}></ReactMarkdown>
             </div>
         )
     }

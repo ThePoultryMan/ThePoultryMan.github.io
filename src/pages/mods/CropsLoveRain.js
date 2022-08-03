@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectPage from '../../components/ProjectPage';
-import { DescSection, LinkContainer } from '../../components/ProjectPage/ProjectPageElements'
+import { DescSection, LinkContainer } from '../../components/ProjectPage/ProjectPageElements';
 
 class CropsLoveRainPage extends ProjectPage {
     title = 'Crops Love Rain';
